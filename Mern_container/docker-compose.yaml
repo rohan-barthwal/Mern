@@ -7,7 +7,7 @@ services:
     ports:
       - "3010:3010"
     environment:
-      - MONGO_URI=mongodb://rohant:rohanpass@:27017/aquilacms
+      - MONGO_URI=mongodb://rohan:rohanpass@<host_name or host_ip>:27017/aquilacms
     depends_on:
       - mongo
     networks:
